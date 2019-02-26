@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "${var.aws_region}"
-  profile = "default"
+  profile = "terraform_user"
   version = "1.23.0"
 }
 
