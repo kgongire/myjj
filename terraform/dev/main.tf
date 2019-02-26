@@ -1,5 +1,5 @@
 provider "aws" {
-  region  = "${var.aws_region}"
+  region  = "us-west-1"
   profile = "mycdd"
   version = "1.23.0"
 }
