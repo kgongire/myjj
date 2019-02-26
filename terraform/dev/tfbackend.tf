@@ -3,6 +3,6 @@ terraform {
     bucket  = "bucket"
     key     = "dev.json"
     region  = "us-west-2"
-    profile = "terraform_user"
+    profile = "mycdd"
   }
 }
