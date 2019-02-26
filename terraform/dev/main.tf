@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "${var.aws_region}"
-  profile = "terraform_user"
+  profile = "mycdd"
   version = "1.23.0"
 }
 
