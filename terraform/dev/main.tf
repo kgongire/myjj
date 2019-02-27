@@ -1,7 +1,7 @@
 provider "aws" {
-  region  = "us-west-1"
-  profile = "mycdd"
-  version = "1.23.0"
+  access_key = AKIAJ6PWUOUEWTK7XWCQ
+  secret_key = 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
+  region = "us-west-1"
 }
 
 module "vpc" {
