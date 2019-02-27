@@ -27,5 +27,5 @@ variable "instance_type_micro" {
 
 #Amazon Linux AMI
 variable "ami" {
-  default = "ami-035b67ea7b753ee7b"
+  default = "ami-00048435fed26a8d1"
 }
