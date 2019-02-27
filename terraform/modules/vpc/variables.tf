@@ -23,7 +23,7 @@ variable "private_subnet_cidrs" {
 }
 
 variable "nat_subnet_number" {
-  default = "0"
+  default = "subnet-5ec4f405"
 }
 
 # Used for VPC peering (I used here one default VPC where I launched my jenkins instance to ssh into app instance)
